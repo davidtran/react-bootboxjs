@@ -6,7 +6,7 @@ import ConfirmModal from './ConfirmModal'
 class App extends Component {
 
   render() {
-    let { showModal, onConfirm, hideName, name } = this.props
+    let { showModal, onConfirm, hideModal, name } = this.props
     return (
       <div>
         <button className="btn" onClick={() => showModal("What your name?")}>Enter your name</button>
